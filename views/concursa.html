@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BASE PROJECT WITH AMD AND GULP</title>
+	<link rel="stylesheet" href="http://localhost:3000/public/assets/styles/all/all-main.css">
+	<link rel="stylesheet" href="http://localhost:3000/public/vendor/styles/font-awesome/css/font-awesome.css">
+</head>
+
+<body class="pag_pma pag_Concursa">
+	<div class="tem_Wrapper">
+		<header class="tem_Header">
+			<div class="cgrid-container">
+				<div class="Header__left f_left">
+					<a class="Header__logo" href="/">PREMIO MAPFRE PARA LAS ARTES</a>
+				</div>
+				<div class="Header__right f_right">
+					<nav class="js_Mobile_menu mol-nav_Main">
+						<ul class="list-inline">
+							<li><a href="index.html">Home</a></li>
+							<li class="is-active"><a href="concursa.html">Concursa</a></li>
+							<li><a href="jurado.html">Jurado</a></li>
+							<li><a href="participantes.html">Participantes</a></li>
+							<li><a href="finalistas.html">Finalistas</a></li>
+							<li><a href="ganadores.html">Ganadores</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<a class="js_Mobile_btn atm_Button-responsive d_none d_block--md" href="javascript:;">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</a>
+		</header>
+		<main class="tem_Body">
+			<div class="cgrid-container">
+				<section class="org-section_Concursa">
+					<div class="mol-bl_Intro">
+						<h1>CONCURSA</h1>
+					</div>
+					<div class="Concursa__step">
+						<div class="Concursa__item">
+							<span class="atm_Icon-calendar"></span>
+							<span class="text">Revisa las bases. Tienes hasta el <b>19 de setiembre</b> para enviar tus obras.</span>
+						</div>
+						<div class="Concursa__item">
+							<span class="atm_Icon-paper"></span>
+							<span class="text">Completa tus datos y sube
+								1 foto por obra (en buena calidad).
+								de tus obras.t
+							</span>
+						</div>
+						<div class="Concursa__item">
+							<span class="atm_Icon-check"></span>
+							<span class="text">El <b>25 de setiembre</b> publicaremos en la web las 30 pinturas finalistas que participarán de la exposición abierta al público.</span>
+						</div>
+						<div class="Concursa__item">
+							<span class="atm_Icon-win"></span>
+							<span class="text">La premiación se realizará en la inauguración de la exposición,
+								que será el <b>11 de octubre</b> en el Ministerio de Cultura.
+							</span>
+						</div>
+					</div>
+					<div class="t-a_center">
+						<a class="atm_Button-primary" href="">DESCARGA LAS BASES E INSCRÍBETE</a>
+					</div>
+					<div class="org-section_Form">
+						<form class="cmxform" id="commentForm" action="">
+							<div class="Form__row cgrid-row">
+								<h2>DATOS</h2>
+								<div class="col-5-md">
+									<input type="text" placeholder="NOMBRES" required>
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="APELLIDOS">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="TIPO DE DOCUMENTO DE IDENTIDAD">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="N° DE DOCUMETO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="FECHA DE NACIMIENTO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="TELÉFONO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="CELULAR">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="CORREÓ ELECTRONICO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="DIRECCIÓN">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="DISTRITO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="PROVINCIA">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="DEPARTAMENTO">
+								</div>
+								<div class="col-5-md">
+									<select name="" id="">
+										<option value="">NÚMERO DE OBRAS A PARTICIPAR</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+							</div>
+							<div class="Form__row cgrid-row">
+								<h2>OBRA 1</h2>
+								<div class="col-5-md">
+									<input type="text" placeholder="NOMBRES">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="APELLIDOS">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="TIPO DE DOCUMENTO DE IDENTIDAD">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="N° DE DOCUMETO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="FECHA DE NACIMIENTO">
+								</div>
+								<div class="col-5-md">
+									<input type="text" placeholder="TELÉFONO">
+								</div>
+								<div class="col-5-md">
+									<input type="file" placeholder="ADJUNTA TU OBRA" />
+								</div>
+							</div>
+							<div class="Form__row Form__row--accept">
+								<label class="f_left">
+									<input type="checkbox">
+									<span>ACEPTO LOS TÉRMINOS Y CONDICIONES DEL CONCURSO AUTORIZANDO
+										EL USO DE IMAGEN Y CESION DE DERECHOS PATRIMONIALES
+									</span>
+								</label>
+								<button class="atm_Button-primary" type="submit">ENVIAR</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="tem_Footer">
+			<div class="cgrid-container">
+				<div class="Footer__right f_right">
+					<a class="Footer__logo" href="">MAPFRE</a>
+				</div>
+				<div class="Footer__left f_left">
+					<ul class="list-inline Footer__list-social">
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+						<li class="cop">©COPYRIGHT MAPFRE PERÚ. TODOS LOS DERECHOS RESERVADOS 2017.</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="../public/vendor/scripts/jquery.min.js"></script>
+	<script src="../public/vendor/scripts/jquery.validate.js"></script>
+	<script src="../public/assets/scripts/main.js"></script>
+	<script>
+		$(function(){
+			$("#commentForm").validate();
+		});
+	</script>
+</body>
+
+</html>
