@@ -1853,7 +1853,7 @@ body {
   z-index: 10; }
   .tem_Header .Header__logo {
     display: inline-block;
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: 0px 0px;
     width: 388px;
     height: 165px;
@@ -1876,7 +1876,7 @@ body {
     top: -2px; }
   .tem_Footer .Footer__logo {
     display: inline-block;
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: 0px -274px;
     width: 177px;
     height: 21px;
@@ -1890,7 +1890,7 @@ body {
   .tem_Footer {
     padding: 20px 10px; }
     .tem_Footer .Footer__logo {
-      background-image: url(/../public/assets/images/all/design/sprite/global.png);
+      background-image: url(../../images/all/design/sprite/global.png);
       background-position: -182px -274px;
       width: 177px;
       height: 21px; }
@@ -2153,22 +2153,22 @@ body {
     display: block;
     margin: 0 auto 10px; }
   .org-section_Concursa .atm_Icon-calendar {
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: -238px -170px;
     width: 36px;
     height: 41px; }
   .org-section_Concursa .atm_Icon-paper {
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: -318px -170px;
     width: 33px;
     height: 41px; }
   .org-section_Concursa .atm_Icon-check {
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: -356px -170px;
     width: 30px;
     height: 41px; }
   .org-section_Concursa .atm_Icon-win {
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: -279px -170px;
     width: 34px;
     height: 41px; }
@@ -2268,7 +2268,7 @@ body {
 ---------------------------------------------------------------*/
 @media (max-width: 1024px) {
   .tem_Header .Header__logo {
-    background-image: url(/../public/assets/images/all/design/sprite/global.png);
+    background-image: url(../../images/all/design/sprite/global.png);
     background-position: 0px -170px;
     width: 233px;
     height: 99px; }
